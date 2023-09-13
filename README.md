@@ -107,6 +107,28 @@ console.log(x);//6
 ## Variables
 to define a variable u can use : let , var , const 
 
+<br>
+<br>
+assignment operator: to assign a value to an operator. we have = , += ( addition assignment operator :
+<br>
+
+let x = 15;
+x+=5; // x = x+5;
+x-=5; // x = x-5;
+x*=5; // x = x*5;
+x/=5; // x = x/5;
+x%=5; // x = x%5;
+
+) 
+<br>
+<br>
+input :
+let balance = parseInt(readLine(), 10);
+let withdraw = parseInt(readLine(), 10);
+<br>
+<br>
+<br>
+
 
 
 
