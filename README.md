@@ -125,6 +125,21 @@ let withdraw = parseInt(readLine(), 10);
 <br>
 <br>
 <br>
+what i notice?
+<br>
+Spaces are important.
+<br>
+
+```
+let country = readLine();
+let capital = readLine();
+
+//complete the code
+console.log(`Country: ${country}, Capital: ${capital}`);
+```
+<br>
+
+
 
 
 
