@@ -125,8 +125,7 @@ let withdraw = parseInt(readLine(), 10);
 <br>
 <br>
 <br>
-what i notice?
-<br>
+What mistake i made and What i learned?!<br>
 Spaces are important.
 <br>
 
