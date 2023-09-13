@@ -42,6 +42,7 @@ You can also create multi-line comments.They start with /* and end with */, maki
 <br>
 <br>
 <br>
+
 ## Calculation 
 <br>
 <br>
@@ -95,6 +96,7 @@ the decrement (--) operator can be used to subtract 1 from a variable.
 <br>
 <br>
 <br>
+
 ## Variables
 to define a variable u can use : let , var , const 
 
