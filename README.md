@@ -58,9 +58,45 @@ Division is done using a slash:
 console.log(42/7);
 <br>
 <br>
+Exponentiation:
+<br>
+Two asterisks ** are used to raise a number to the power of another, which is called exponentiation.
+<br>
+console.log(x**y);
+<br>
+<br>
+Remainder:
+<br>
+It is used to calculate the remainder of a division.
+<br>
+console.log(x % y );
+<br>
+<br>
+Increment:
+<br>
+Sometimes we need to repeatedly add 1 to a variable.For example, when counting attempts in a game, or the number of clicks on a web page.This can be done using the increment (++) operator:
+<br>
+
+```
+let count = 0;
+count++;
+console.log(count);
+```
+<br>
+<br>
+Decrement:
+<br>
+the decrement (--) operator can be used to subtract 1 from a variable.
+
+
+
+<br>
+<br>
 <br>
 <br>
 ## Variables
+to define a variable u can use : let , var , const 
+
 
 
 
