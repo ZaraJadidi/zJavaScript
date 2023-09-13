@@ -102,11 +102,8 @@ console.log(x);//6
 <br>
 <br>
 <br>
-<br>
-
 ## Variables
 to define a variable u can use : let , var , const 
-
 <br>
 <br>
 assignment operator: to assign a value to an operator. we have = , += ( addition assignment operator :
