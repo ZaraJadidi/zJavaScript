@@ -101,7 +101,7 @@ console.log(x);//6
 
 <br>
 <br>
-<br>
+
 ## Variables
 to define a variable u can use : let , var , const 
 <br>
