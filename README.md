@@ -89,8 +89,15 @@ console.log(count);
 Decrement:
 <br>
 the decrement (--) operator can be used to subtract 1 from a variable.
+<br>
+The postfix form returns the original value of the variable, and only then increments/decrements it.
+<br>
 
-
+```
+let x = 5;
+console.log(x++);//5
+console.log(x);//6
+```
 
 <br>
 <br>
