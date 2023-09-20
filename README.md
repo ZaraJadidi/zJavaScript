@@ -349,6 +349,62 @@ for(let i=0;i<10;i++) {
 <br>
 <br>
 <br>
+Functions :
+<br>
+<br>
+A function is a block of code designed to perform a particular task.For example, our app can have functions like login(), logout(), convert(), etc.The purpose of a function is to create it once and call it multiple times when needed to perform particular tasks.
+To define a function, use the function keyword, followed by a name, followed by a set of parentheses ().
+
+
+<br>
+<br>
+
+Parameters :
+<br>
+Functions can have parameters.The parameters are defined in the parentheses and can be used like variables in the function.
+
+```
+function login(user) {
+   console.log("Hi, "+user);
+}
+```
+<br>
+To call it :
+
+```
+
+login("james");
+login("bob");
+```
+<br>
+
+```
+function login(user) {
+  console.log("Hi, "+user);
+}
+let myUser = "Bob";
+login(myUser);
+```
+<br>
+<br>
+<br>
+Returning from functions
+<br>
+<br>
+The methods we have seen so far output their result.In some cases, we do not need to output the result but need to assign it to a variable, to work with it in our program.The return statement ends the function execution, which means that everything after it inside the function will be ignored - the program just goes on from the scope of the function.
+
+```
+function add(x,y){
+  return x+y;
+}
+
+let result = add(5,6);
+console.log(result);
+```
+<br>
+<br>
+
+
 
 
 
