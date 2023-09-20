@@ -137,6 +137,115 @@ let capital = readLine();
 console.log(`Country: ${country}, Capital: ${capital}`);
 ```
 <br>
+<br>
+
+```
+if (condition) {
+    // block of code
+}
+```
+<br>
+<br>
+
+ your program needs to perform some action only if the given condition is true. And this is where the if statement comes in.You can use any expression that can be evaluated as true or false for your if statement.
+ <br>
+
+ ```
+
+let answer = "Maybe";
+if(answer == "Yes!"){
+    console.log("You are tough!")
+}
+```
+<br>
+<br>
+
+```
+${player}
+```
+<br>
+<br>
+<br>
+ else statement : The code inside the else statement will be executed only if the condition is false.
+<br>
+<br>
+
+```
+let score = 98;
+
+if(score >=100){
+  console.log("Level Completed!");
+} else {
+  console.log("Try again!");
+}
+```
+<br>
+<br>
+<br>
+else if statement : There will be times when you want to test multiple conditions. That is where the else if block comes in. It's written between if and else statements.
+<br>
+<br>
+
+```
+let time = 15;
+
+if (time < 10) {
+  console.log("Good morning");
+} else if (time < 20) {
+  console.log("Good day");
+} else {
+  console.log("Good evening");
+}
+```
+<br>
+<br>
+<br>
+switch statement : The switch expression is evaluated once. The value of the expression is compared with the values of each case, and if there’s a match, that block of code is executed.You can achieve the same result with multiple if else statements, but the switch statement is more effective in such situations and makes the code more readable.
+<br>
+<br>
+
+```
+let choice = 1;
+
+switch(choice){
+  case 1://match!
+    console.log("Sports");
+    break;
+  case 2:
+    console.log("Business");
+    break;
+  case 3:
+    console.log("Technology");
+    break;
+}
+```
+<br>
+<br>
+<br>
+The default keyword : 
+Often there will be no match, but we still need the program to do some action. For this, we use the default keyword, which specifies the code to run if there’s no case match.
+<br>
+
+```
+let color ="yellow";
+
+switch(color) {
+  case "blue": 
+    console.log("This is blue.");
+    break;
+  case "red": 
+    console.log("This is red.");
+    break;
+  default: 
+    console.log("Color not found.");
+}
+```
+<br>
+<br>
+<br>
+
+
+
 
 
 
