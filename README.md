@@ -262,6 +262,7 @@ console.log(isAdult);
 <br>
 Loops 
 
+
 Loops allow you to run the same code multiple times.
 <br>
 <br>
@@ -285,6 +286,7 @@ for (let i = 1; i <= 10; i++) {
 
 
 while 
+
 <br>
 <br>
 The while loop is another way to create loops.It runs as long as the condition is true.
@@ -297,7 +299,9 @@ while(condition) {
 <br>
 <br>
 <br>
-do...while: This loop will execute the code block once, before checking if the condition is true, and then it will repeat the loop as long as the condition is true.The condition is tested after the first iteration, that's why the code inside it is executed once. The while loop with the same conditions will not output anything in this case.
+do...while
+
+This loop will execute the code block once, before checking if the condition is true, and then it will repeat the loop as long as the condition is true.The condition is tested after the first iteration, that's why the code inside it is executed once. The while loop with the same conditions will not output anything in this case.
 
 <br>
 <br>
