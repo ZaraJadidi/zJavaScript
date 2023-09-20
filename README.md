@@ -300,7 +300,8 @@ while(condition) {
 <br>
 <br>
 do...while
-
+<br>
+<br>
 This loop will execute the code block once, before checking if the condition is true, and then it will repeat the loop as long as the condition is true.The condition is tested after the first iteration, that's why the code inside it is executed once. The while loop with the same conditions will not output anything in this case.
 
 <br>
