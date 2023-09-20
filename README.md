@@ -317,8 +317,38 @@ while (i<5);
 ```
 <br>
 <br>
+<br>
+The break statement : The break statement allows you to exit a loop prematurely, based on the given condition.This can be useful, for example, to exit a loop when the user enters a specific number, or taps on a specific button.
 
+<br>
+<br>
 
+```
+for(let i=0; i<10;i++) {
+  if(i==3) {
+    break;
+  }
+  console.log(i);
+}
+```
+<br>
+<br>
+<br>
+continue  : The continue statement is used to skip an iteration of the loop and continue from the next one.This can be useful, for example, to skip some particular elements in the loop:
+<br>
+
+```
+for(let i=0;i<10;i++) {
+  if(i == 5) {
+    continue;
+  }
+  console.log(i);
+}
+```
+
+<br>
+<br>
+<br>
 
 
 
