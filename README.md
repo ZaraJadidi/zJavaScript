@@ -452,6 +452,38 @@ document.write(course.name.length);
 ```
 <br>
 <br>
+Object Methods :
+<br>
+An object method is a property that contains a function definition.document.write() outputs data. The write() function is actually a method of the document object.Methods are functions that are stored as object properties.
+
+
+<br>
+<br>
+
+```
+objectName.methodName()
+```
+
+<br>
+Use the following syntax to create an object method:
+
+```
+methodName = function() { code lines }
+```
+<br>
+<br>
+Access an object method using the following syntax:
+
+```
+objectName.methodName()
+```
+<br>
+<br>
+
+
+
+
+
 
 
 
