@@ -403,6 +403,57 @@ console.log(result);
 ```
 <br>
 <br>
+<br>
+JavaScript Objects
+<br>
+JavaScript variables are containers for data values. Objects are variables too, but they can contain many values. JavaScript objects are containers for named values.
+
+```
+var person = {
+ name: "John", age: 31, 
+ favColor: "green", height: 183
+};
+```
+<br>
+In reference to an object, color, height, weight, and name are all examples of properties.
+<br>
+<br>
+<br>
+
+Object Properties : You can access object properties in two ways.
+
+<br>
+<br>
+
+```
+objectName.propertyName
+//or
+objectName['propertyName']
+```
+<br>
+
+```
+var person = {
+ name: "John", age: 31, 
+ favColor: "green", height: 183
+};
+var x = person.age;
+var y = person['age'];
+```
+<br>
+<br>
+Length : JavaScript's built-in length property is used to count the number of characters in a property or string.
+<br>
+<br>
+
+```
+var course = {name: "JS", lessons: 41};
+document.write(course.name.length);
+```
+<br>
+<br>
+
+
 
 
 
