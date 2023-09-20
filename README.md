@@ -243,6 +243,78 @@ switch(color) {
 <br>
 <br>
 <br>
+Ternary operator : Conditional, or ternary, operators assign a value to a variable, based on some condition. This operator is frequently used as an alternative to an if else statement.
+<br>
+<br>
+
+```
+variable = (condition) ? value1: value2
+```
+<br>
+
+```
+let age = 42;
+let isAdult = (age < 18) ? "Too young": "Old enough";
+console.log(isAdult);
+```
+<br>
+<br>
+<br>
+Loops 
+
+Loops allow you to run the same code multiple times.
+<br>
+<br>
+for:
+<br>
+<br>
+```
+for (initializer; condition; final-expression) {
+    // code to run
+}
+```
+<br>
+
+```
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+```
+<br>
+<br>
+
+
+while 
+<br>
+<br>
+The while loop is another way to create loops.It runs as long as the condition is true.
+
+```
+while(condition) {
+  //code to run
+}
+```
+<br>
+<br>
+<br>
+do...while: This loop will execute the code block once, before checking if the condition is true, and then it will repeat the loop as long as the condition is true.The condition is tested after the first iteration, that's why the code inside it is executed once. The while loop with the same conditions will not output anything in this case.
+
+<br>
+<br>
+
+```
+let i=5;
+do {  
+    console.log(i);
+    i++;  
+}
+while (i<5);
+```
+<br>
+<br>
+
+
+
 
 
 
