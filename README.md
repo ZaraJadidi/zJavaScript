@@ -506,6 +506,9 @@ document.write(p2.name); // Outputs "Amy"
 ```
 <br>
 <br>
+<br>
+Methods : Methods are functions that are stored as object properties. 
+
 
 
 
