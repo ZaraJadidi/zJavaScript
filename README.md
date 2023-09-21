@@ -479,7 +479,33 @@ objectName.methodName()
 ```
 <br>
 <br>
+The Object Constructor
+<br>
+<br>
+ we need to set an "object type" that can be used to create a number of objects of a single type. The standard way to create an "object type" is to use an object constructor function
 
+```
+function person(name, age, color) {
+  this.name = name;
+  this.age = age;
+  this.favColor = color;
+}
+```
+<br>
+The this keyword refers to the current object.Note that this is not a variable. It is a keyword, and its value cannot be changed.
+<br>
+<br>
+Once you have an object constructor, you can use the new keyword to create new objects of the same type.
+
+```
+var p1 = new person("John", 42, "green");
+var p2 = new person("Amy", 21, "red");
+
+document.write(p1.age); // Outputs 42
+document.write(p2.name); // Outputs "Amy"
+```
+<br>
+<br>
 
 
 
